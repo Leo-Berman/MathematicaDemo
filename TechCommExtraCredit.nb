@@ -1,0 +1,3113 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    156925,       3105]
+NotebookOptionsPosition[    155168,       3070]
+NotebookOutlinePosition[    155614,       3087]
+CellTagsIndexPosition[    155571,       3084]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Expand", "[", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"x", "-", "y"}], ")"}], "^", "n"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", "1", ",", "20", ",", "1"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.9083807753885765`*^9, 3.9083807881431265`*^9}, {
+  3.908380818176631*^9, 3.9083809049114532`*^9}},
+ CellLabel->"In[21]:=",ExpressionUUID->"a271361b-5a99-4350-9039-f8ae5b0d89a0"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`n$$ = 1, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`n$$], 1, 20, 1}}, Typeset`size$$ = {
+    28.096192359924316`, {2.6406250968575478`, 6.373047108761966}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`n$$ = 1}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      Expand[($CellContext`x - $CellContext`y)^$CellContext`n$$], 
+      "Specifications" :> {{$CellContext`n$$, 1, 20, 1}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{295., {35.134033098001964`, 40.865966901998036`}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]], "\[IndentingNewLine]", 
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{"Cos", "[", "x", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", "10"}], "}"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.9083809536447973`*^9, 3.9083810488607693`*^9}},
+ CellLabel->"In[24]:=",ExpressionUUID->"9231dadd-4b03-43a1-8a0b-92ec60e95098"],
+
+Cell[BoxData[
+ GraphicsBox[
+  InterpretationBox[{
+    TagBox[{{{}, {}, 
+       TagBox[
+        {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[2], 
+         Opacity[1.], LineBox[CompressedData["
+1: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
+7378P++lfrc=
+          "]]},
+        Annotation[#, "Charting`Private`Tag#1"]& ]}, {}},
+     {"WolframDynamicHighlight", <|
+      "Label" -> {"XYLabel"}, "Ball" -> {"InterpolatedBall"}|>}], 
+    DynamicBox[(Charting`HighlightActionBox["DynamicHighlight", {}, 
+      Slot["HighlightElements"], 
+      Slot["LayoutOptions"], 
+      Slot["Meta"], 
+      Charting`HighlightActionFunction["DynamicHighlight", {{{{}, {}, 
+          Annotation[{
+            Directive[
+             Opacity[1.], 
+             RGBColor[0.368417, 0.506779, 0.709798], 
+             AbsoluteThickness[2]], 
+            Line[CompressedData["
+1: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
+7378P++lfrc=
+             "]]}, "Charting`Private`Tag#1"]}}, {}}, <|
+       "HighlightElements" -> <|
+         "Label" -> {"XYLabel"}, "Ball" -> {"InterpolatedBall"}|>, 
+        "LayoutOptions" -> <|
+         "PlotRange" -> {{0, 10}, {-0.9999997966795732, 0.9999999999999791}}, 
+          "Frame" -> {{False, False}, {False, False}}, "AxesOrigin" -> {0, 0},
+           "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+          "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), 
+          "DefaultStyle" -> {
+            Directive[
+             Opacity[1.], 
+             RGBColor[0.368417, 0.506779, 0.709798], 
+             AbsoluteThickness[2]]}, 
+          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+              Identity[
+               Part[#, 1]], 
+              Identity[
+               Part[#, 2]]}& ), 
+            "ScalingFunctions" -> {{Identity, Identity}, {
+              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>,
+         "Meta" -> <|
+         "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+          Plot, "GroupHighlight" -> False|>|>]]& )[<|
+      "HighlightElements" -> <|
+        "Label" -> {"XYLabel"}, "Ball" -> {"InterpolatedBall"}|>, 
+       "LayoutOptions" -> <|
+        "PlotRange" -> {{0, 10}, {-0.9999997966795732, 0.9999999999999791}}, 
+         "Frame" -> {{False, False}, {False, False}}, "AxesOrigin" -> {0, 0}, 
+         "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+         "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), 
+         "DefaultStyle" -> {
+           Directive[
+            Opacity[1.], 
+            RGBColor[0.368417, 0.506779, 0.709798], 
+            AbsoluteThickness[2]]}, 
+         "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+             Identity[
+              Part[#, 1]], 
+             Identity[
+              Part[#, 2]]}& ), 
+           "ScalingFunctions" -> {{Identity, Identity}, {
+             Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
+       "Meta" -> <|
+        "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+         Plot, "GroupHighlight" -> False|>|>],
+     ImageSizeCache->{{4.503599627370496*^15, -4.503599627370496*^15}, {
+      4.503599627370496*^15, -4.503599627370496*^15}}]},
+   Annotation[{{{{}, {}, 
+       Annotation[{
+         Directive[
+          Opacity[1.], 
+          RGBColor[0.368417, 0.506779, 0.709798], 
+          AbsoluteThickness[2]], 
+         Line[CompressedData["
+1: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
+7378P++lfrc=
+          "]]}, "Charting`Private`Tag#1"]}}, {}}, <|
+    "HighlightElements" -> <|
+      "Label" -> {"XYLabel"}, "Ball" -> {"InterpolatedBall"}|>, 
+     "LayoutOptions" -> <|
+      "PlotRange" -> {{0, 10}, {-0.9999997966795732, 0.9999999999999791}}, 
+       "Frame" -> {{False, False}, {False, False}}, "AxesOrigin" -> {0, 0}, 
+       "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+       "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), "DefaultStyle" -> {
+         Directive[
+          Opacity[1.], 
+          RGBColor[0.368417, 0.506779, 0.709798], 
+          AbsoluteThickness[2]]}, 
+       "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+           Identity[
+            Part[#, 1]], 
+           Identity[
+            Part[#, 2]]}& ), 
+         "ScalingFunctions" -> {{Identity, Identity}, {Identity, Identity}}|>,
+        "Primitives" -> {}, "GCFlag" -> False|>, 
+     "Meta" -> <|
+      "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+       Plot, "GroupHighlight" -> False|>|>, "DynamicHighlight"]],
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->All,
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "ScalingFunctions" -> None, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0, 10}, {-0.9999997966795732, 0.9999999999999791}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.05], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{{3.908381025371589*^9, 3.908381050091585*^9}},
+ CellLabel->"Out[25]=",ExpressionUUID->"76180de1-48c9-4c13-9534-1a11ac662ba8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     RowBox[{"Cos", "[", 
+      RowBox[{"c", "*", "x"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "0", ",", "10"}], "}"}], ",", 
+     RowBox[{"PlotStyle", "->", "Red"}], ",", 
+     RowBox[{"PlotRange", "->", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "2"}], ",", "2"}], "}"}]}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"c", ",", "3", ",", "8"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.908381051390626*^9, 3.9083810613025656`*^9}, {
+  3.9083810966360207`*^9, 3.908381142179631*^9}, {3.908381216907585*^9, 
+  3.9083812606379986`*^9}, {3.908381292243088*^9, 3.908381316409753*^9}},
+ CellLabel->"In[28]:=",ExpressionUUID->"b260ba88-37e8-4d4f-bad6-bc5f8d2d170c"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`c$$ = 3., Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`c$$], 3, 8}}, Typeset`size$$ = {
+    360., {112., 116.80726769790436`}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`c$$ = 3}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Plot[
+        Cos[$CellContext`c$$ $CellContext`x], {$CellContext`x, 0, 10}, 
+        PlotStyle -> Red, PlotRange -> {-2, 2}], 
+      "Specifications" :> {{$CellContext`c$$, 3, 8}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{625., {140.63403309800196`, 146.36596690199804`}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.9083811470135975`*^9, 3.9083812634515567`*^9, 
+  3.908381319041009*^9},
+ CellLabel->"Out[28]=",ExpressionUUID->"348f4828-d749-4efb-bf14-c77bc1dd61a8"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.9083808026896276`*^9, 
+  3.908380815650634*^9}},ExpressionUUID->"68694fb1-2af8-4de9-92a4-\
+c0a68d8a93b2"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryResults",
+  DynamicModuleBox[{Typeset`q$$ = 
+   "generate a list of 100 points of boiling point of water from 1 to 5 \
+\\\n\natm", Typeset`opts$$ = {
+   AppearanceElements -> {"Extrusion", "Warnings", "Assumptions", "Pods"}, 
+    Asynchronous -> All, 
+    Method -> {
+     "ExtrusionChosen" -> {
+       "Result", "Result", 1, 1, "Output", 
+        "Quantity[99.61, \"DegreesCelsius\"]"}, 
+      "Formats" -> {"cell", "minput", "moutput", "msound", "dataformats"}}}, 
+   Typeset`elements$$ = {"Extrusion", "Warnings", "Assumptions", "Pods"}, 
+   Typeset`pod1$$ = XMLElement[
+   "pod", {"error" -> "false", "id" -> "Input", "numsubpods" -> "1", 
+     "position" -> "100", "scanner" -> "Identity", "title" -> 
+     "Input interpretation"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement[
+       "minput", {}, {
+        "Entity[\"Chemical\", \"Water\"][EntityProperty[\"Chemical\", \
+\"BoilingPoint\"]]"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             FormBox[
+              TagBox[
+               GridBox[{{
+                  PaneBox[
+                   StyleBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    TagBox[
+                    TagBox["\"water\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {ChemicalData, "Water"}, 
+                    "SRString" :> $CellContext`GeneralData[
+                    ChemicalData, "Water", "SpokenName"]]], Identity], {
+                    LineIndent -> 0, LineSpacing -> {0.9, 0, 1.5}}], 
+                    "\"boiling point\""}}, GridBoxBackground -> {"Columns" -> {
+                    GrayLevel[0.949], None}, "Rows" -> {{None}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    ColumnsEqual -> False, RowsEqual -> False, 
+                    GridBoxDividers -> {"Columns" -> {
+                    GrayLevel[0.84], 
+                    GrayLevel[0.84], 
+                    GrayLevel[0.84]}, "Rows" -> {{
+                    GrayLevel[0.84]}}, 
+                    "RowsIndexed" -> {
+                    1 -> GrayLevel[0.84], -1 -> GrayLevel[0.84]}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {2, 2, 2}, "Rows" -> {{1}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
+                    AllowScriptLevelChange -> False, BaselinePosition -> 1], 
+                    $CellContext`TagBoxWrapper["Separator" -> " | "]], 
+                    LineSpacing -> {1, 0, 1.5}, LineIndent -> 0], 
+                   BaselinePosition -> Center]}}, 
+                GridBoxItemSize -> {
+                 "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                ColumnsEqual -> False, RowsEqual -> False, 
+                GridBoxSpacings -> {"Columns" -> {{
+                    AbsoluteThickness[-1]}}, "Rows" -> {{0}}}, 
+                AllowScriptLevelChange -> False], 
+               $CellContext`TagBoxWrapper["Separator" -> " | "]], 
+              TraditionalForm], 
+             PolynomialForm[#, TraditionalOrder -> False]& ], 
+            TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,minput,computabledata,formatteddata"}]}], 
+     XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+       XMLElement["expressiontype", {"name" -> "Grid"}, {}], "\n  "}]}], 
+   Typeset`pod2$$ = XMLElement[
+   "pod", {"error" -> "false", "id" -> "Result", "numsubpods" -> "1", 
+     "position" -> "200", "primary" -> "true", "scanner" -> "Data", "title" -> 
+     "Result"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["microsources", {}, {"\n    ", 
+         XMLElement["microsource", {}, {"ChemicalData"}], "\n   "}], 
+       XMLElement["datasources", {}, {"\n    ", 
+         XMLElement["datasource", {}, {"CRCHandbook"}], "\n   "}], 
+       XMLElement["moutput", {}, {"Quantity[99.61, \"DegreesCelsius\"]"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             StyleBox[
+              TemplateBox[{
+                StyleBox[
+                 TagBox[
+                  RowBox[{
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["99.61", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "99.61", "SRString" -> "99.61"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LineIndent -> 0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LineIndent -> 0}]}], Identity], #& , SyntaxForm -> Dot], 
+                    "  ", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"(\"", "\[NoBreak]", "\"degrees Celsius\"", 
+                    "\[NoBreak]", "\")\""}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    GrayLevel[0.6], LineIndent -> 0}]}], "Unit", SyntaxForm -> 
+                  Dot], LineIndent -> 0, ZeroWidthTimes -> False], "\"  \"", 
+                StyleBox[
+                 RowBox[{"\"(\"", "\[NoBreak]", 
+                   TemplateBox[{"\"measured at \"", 
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["100", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "100", "SRString" -> "100"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LineIndent -> 0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"kPa\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LineIndent -> 0}]}], Identity], #& , SyntaxForm -> Dot], 
+                    "Unit", SyntaxForm -> Dot], LineIndent -> 0, 
+                    ZeroWidthTimes -> False]}, "RowDefault"], "\[NoBreak]", 
+                   "\")\""}], {FontFamily -> "Roboto", FontSize -> 10, 
+                  GrayLevel[0.5], LineIndent -> 0}]}, "RowDefault"], 
+              LineIndent -> 0], LinebreakAdjustments -> {1, 100, 0, 0, 100}], 
+            TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,moutput,computabledata,formatteddata,numberdata,\
+quantitydata"}]}], 
+     XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n  "}]}], 
+   Typeset`pod3$$ = XMLElement[
+   "pod", {"error" -> "false", "id" -> "UnitConversion", "numsubpods" -> "5", 
+     "position" -> "300", "scanner" -> "Unit", "title" -> 
+     "Unit conversions"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              RowBox[{
+                TagBox[
+                 TagBox[
+                  RowBox[{
+                    TagBox["372.76", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "372.76", "SRString" -> "372.76"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"K\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "  ", 
+                StyleBox[
+                 
+                 RowBox[{
+                  "\"(\"", "\[NoBreak]", "\"kelvins\"", "\[NoBreak]", 
+                   "\")\""}], {
+                 FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                  GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                   LineIndent -> 0}]}], "Unit", SyntaxForm -> Dot], 
+             LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 0, 
+             ZeroWidthTimes -> False], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,numberdata,quantitydata"}]}], 
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              RowBox[{
+                TagBox[
+                 TagBox[
+                  RowBox[{
+                    TagBox["211.3", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "211.3", "SRString" -> "211.3"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]F\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "  ", 
+                StyleBox[
+                 
+                 RowBox[{
+                  "\"(\"", "\[NoBreak]", "\"degrees Fahrenheit\"", 
+                   "\[NoBreak]", "\")\""}], {
+                 FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                  GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                   LineIndent -> 0}]}], "Unit", SyntaxForm -> Dot], 
+             LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 0, 
+             ZeroWidthTimes -> False], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,numberdata,quantitydata"}]}], 
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              RowBox[{
+                TagBox[
+                 TagBox[
+                  RowBox[{
+                    TagBox["671", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "671", "SRString" -> "671"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]R\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "  ", 
+                StyleBox[
+                 
+                 RowBox[{
+                  "\"(\"", "\[NoBreak]", "\"degrees Rankine\"", "\[NoBreak]", 
+                   "\")\""}], {
+                 FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                  GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                   LineIndent -> 0}]}], "Unit", SyntaxForm -> Dot], 
+             LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 0, 
+             ZeroWidthTimes -> False], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,numberdata,quantitydata"}]}], 
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              RowBox[{
+                TagBox[
+                 TagBox[
+                  RowBox[{
+                    TagBox["79.69", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "79.69", "SRString" -> "79.69"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]R\[EAcute]\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "  ", 
+                StyleBox[
+                 
+                 RowBox[{
+                  "\"(\"", "\[NoBreak]", "\"degrees R\[EAcute]aumur\"", 
+                   "\[NoBreak]", "\")\""}], {
+                 FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                  GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                   LineIndent -> 0}]}], "Unit", SyntaxForm -> Dot], 
+             LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 0, 
+             ZeroWidthTimes -> False], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,numberdata,quantitydata"}]}], 
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              RowBox[{
+                TagBox[
+                 TagBox[
+                  RowBox[{
+                    TagBox["59.8", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "59.8", "SRString" -> "59.8"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]R\[OSlash]\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "  ", 
+                StyleBox[
+                 
+                 RowBox[{
+                  "\"(\"", "\[NoBreak]", "\"degrees R\[OSlash]mer\"", 
+                   "\[NoBreak]", "\")\""}], {
+                 FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                  GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                   LineIndent -> 0}]}], "Unit", SyntaxForm -> Dot], 
+             LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 0, 
+             ZeroWidthTimes -> False], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,numberdata,quantitydata"}]}], 
+     XMLElement["expressiontypes", {"count" -> "5"}, {"\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n  "}]}], 
+   Typeset`pod4$$ = XMLElement[
+   "pod", {"error" -> "false", "id" -> "ComparisonAsBoilingTemperature", 
+     "numsubpods" -> "3", "position" -> "400", "scanner" -> "Unit", "title" -> 
+     "Comparisons as temperature"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            FormBox[
+             InterpretationBox[
+              Cell[
+               BoxData[
+                FormBox[
+                 TemplateBox[{
+                   StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["27.4", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "27.4", "SRString" -> "27.4"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                    SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], "\" below \"", 
+                   StyleBox[
+                   "\"hottest temperature of a Concorde nose tip\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\" \"", 
+                   StyleBox[
+                    RowBox[{"\"(\"", "\[NoBreak]", 
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["127", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "127", "SRString" -> "127"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 10, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", {
+                    FontFamily -> "Roboto", FontSize -> 10, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                    SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], "\[NoBreak]", "\")\""}], {
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}, "RowDefault"], TraditionalForm]]], 
+              TextCell[
+               $CellContext`RowTemplate["`1` below `2` `3`", {
+                 Quantity[27.39`3.439289092155423, 
+                  $CellContext`Unit[$CellContext`DegreesCelsius], "Short" -> 
+                  True], 
+                 $CellContext`CalculateText[
+                 "hottest temperature of a Concorde nose tip", BaseStyle -> 
+                  "Unit"], 
+                 $CellContext`GrayComment[
+                  Quantity[127, 
+                   $CellContext`Unit[$CellContext`DegreesCelsius], BaseStyle -> 
+                   "Caption", "Short" -> True]]}]]], TraditionalForm], 
+            TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement["dataformats", {}, {"plaintext"}]}], 
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            FormBox[
+             InterpretationBox[
+              Cell[
+               BoxData[
+                FormBox[
+                 TemplateBox[{
+                   StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["80", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "80", "SRString" -> "80"]], "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                    SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], "\" above \"", 
+                   StyleBox[
+                   "\"conventional US room temperature\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\" \"", 
+                   StyleBox[
+                    RowBox[{"\"(\"", "\[NoBreak]", 
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["68", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "68", "SRString" -> "68"]], "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 10, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]F\"", {
+                    FontFamily -> "Roboto", FontSize -> 10, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                    SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], "\[NoBreak]", "\")\""}], {
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}, "RowDefault"], TraditionalForm]]], 
+              TextCell[
+               $CellContext`RowTemplate["`1` above `2` `3`", {
+                 Quantity[79.61`2.3124283869233984, 
+                  $CellContext`Unit[$CellContext`DegreesCelsius], "Short" -> 
+                  True], 
+                 $CellContext`CalculateText[
+                 "conventional US room temperature", BaseStyle -> "Unit"], 
+                 $CellContext`GrayComment[
+                  Quantity[68.`2., 
+                   $CellContext`Unit[$CellContext`DegreesFahrenheit], 
+                   BaseStyle -> "Caption", "Short" -> True]]}]]], 
+             TraditionalForm], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement["dataformats", {}, {"plaintext"}]}], 
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            FormBox[
+             InterpretationBox[
+              Cell[
+               BoxData[
+                FormBox[
+                 TemplateBox[{
+                   StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["79.61", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "79.61", "SRString" -> "79.61"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                    SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], "\" above \"", 
+                   StyleBox[
+                   "\"temperature at standard temperature and pressure using \
+the National Institute of Standards and Technology convention\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\" \"", 
+                   StyleBox[
+                    RowBox[{"\"(\"", "\[NoBreak]", 
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["20", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "20", "SRString" -> "20"]], "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 10, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", {
+                    FontFamily -> "Roboto", FontSize -> 10, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                    SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], "\[NoBreak]", "\")\""}], {
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}, "RowDefault"], TraditionalForm]]], 
+              TextCell[
+               $CellContext`RowTemplate["`1` above `2` `3`", {
+                 Quantity[79.61`3.9026646838205865, 
+                  $CellContext`Unit[$CellContext`DegreesCelsius], "Short" -> 
+                  True], 
+                 $CellContext`CalculateText[
+                 "temperature at standard temperature and pressure using the \
+National Institute of Standards and Technology convention", BaseStyle -> 
+                  "Unit"], 
+                 $CellContext`GrayComment[
+                  Quantity[20, 
+                   $CellContext`Unit[$CellContext`DegreesCelsius], BaseStyle -> 
+                   "Caption", "Short" -> True]]}]]], TraditionalForm], 
+            TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement["dataformats", {}, {"plaintext"}]}], 
+     XMLElement["expressiontypes", {"count" -> "3"}, {"\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n  "}]}], 
+   Typeset`pod5$$ = XMLElement[
+   "pod", {"error" -> "false", "id" -> "CorrespondingQuantity", "numsubpods" -> 
+     "3", "position" -> "500", "scanner" -> "Unit", "title" -> 
+     "Corresponding quantities"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             GridBox[{{
+                InterpretationBox[
+                 Cell[
+                  TextData[{"Thermodynamic energy ", 
+                    Cell[
+                    BoxData[
+                    FormBox[
+                    FormBox[
+                    StyleBox["\"E\"", Italic, StripOnInput -> False], 
+                    TraditionalForm], TraditionalForm]]], " from ", 
+                    Cell[
+                    BoxData[
+                    FormBox[
+                    FormBox[
+                    TemplateBox[{
+                    TagBox[
+                    RowBox[{
+                    FormBox[
+                    StyleBox["\"E\"", Italic, StripOnInput -> False], 
+                    TraditionalForm], "\[LongEqual]", 
+                    RowBox[{"k", "\[InvisibleSpace]", "T"}]}], 
+                    PolynomialForm[#, TraditionalOrder -> False]& ]}, 
+                    "RowDefault"], TraditionalForm], TraditionalForm]]], 
+                    ":"}]], 
+                 TextCell[
+                  
+                  Row[{"Thermodynamic energy ", $CellContext`capitalE, 
+                    " from ", 
+                    $CellContext`InlineForm["capitalE \[LongEqual] k T"], 
+                    ":"}]]]}, {
+                TagBox[
+                 GridBox[{{"", 
+                    StyleBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["32", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "32", "SRString" -> "32"]], "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"meV\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "  ", 
+                    StyleBox[
+                    RowBox[{
+                    "\"(\"", "\[NoBreak]", "\"millielectronvolts\"", 
+                    "\[NoBreak]", "\")\""}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], "Unit", SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                  False, GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                  GridBoxSpacings -> {
+                   "Columns" -> {{1}}, "Rows" -> {{Automatic}}}], "Grid"]}}, 
+              GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+              "Column", 
+              GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+             "Column"], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,numberdata,quantitydata"}]}], 
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             GridBox[{{
+                InterpretationBox[
+                 Cell[
+                  TextData[{"Blackbody energy flux \[CapitalPhi] from ", 
+                    Cell[
+                    BoxData[
+                    FormBox[
+                    FormBox[
+                    TemplateBox[{
+                    TagBox[
+                    RowBox[{"\[CapitalPhi]", "\[LongEqual]", 
+                    RowBox[{"\[Sigma]", "\[InvisibleSpace]", 
+                    SuperscriptBox["T", "4"]}]}], 
+                    PolynomialForm[#, TraditionalOrder -> False]& ]}, 
+                    "RowDefault"], TraditionalForm], TraditionalForm]]], 
+                    ":"}]], 
+                 TextCell[
+                  Row[{"Blackbody energy flux \[CapitalPhi] from ", 
+                    $CellContext`InlineForm[
+                    "\[CapitalPhi] \[LongEqual] \[Sigma] T^4"], ":"}]]]}, {
+                TagBox[
+                 GridBox[{{"", 
+                    StyleBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["1095", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "1095", "SRString" -> "1095"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{"\"W\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", 
+                    SuperscriptBox["\"m\"", "2"]}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "  ", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"(\"", "\[NoBreak]", "\"watts per square meter\"", 
+                    "\[NoBreak]", "\")\""}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], "Unit", SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                  False, GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                  GridBoxSpacings -> {
+                   "Columns" -> {{1}}, "Rows" -> {{Automatic}}}], "Grid"]}}, 
+              GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+              "Column", 
+              GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+             "Column"], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,numberdata,quantitydata"}]}], 
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             GridBox[{{
+                InterpretationBox[
+                 Cell[
+                  
+                  TextData[{
+                   "Approximate luminous exitance from a planar blackbody \
+radiator perpendicular to its surface:"}]], 
+                 TextCell[
+                  
+                  Row[{"Approximate luminous exitance from a planar blackbody \
+radiator perpendicular to its surface:"}]]]}, {
+                TagBox[
+                 GridBox[{{"", 
+                    StyleBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{"8.6", 
+                    StyleBox["\[Times]", 
+                    GrayLevel[0.5]], 
+                    SuperscriptBox["10", "-16"]}], 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> RowBox[{"8.6", "\[Times]", 
+                    SuperscriptBox["10", "-16"]}], "SRString" -> 
+                    "8.6 times 10 to the negative 16"], SyntaxForm -> 
+                    CenterDot], "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"lx\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "  ", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"(\"", "\[NoBreak]", "\"lux\"", "\[NoBreak]", 
+                    "\")\""}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], "Unit", SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                  False, GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                  GridBoxSpacings -> {
+                   "Columns" -> {{1}}, "Rows" -> {{Automatic}}}], "Grid"]}}, 
+              GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+              "Column", 
+              GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+             "Column"], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,numberdata,quantitydata"}]}], 
+     XMLElement["expressiontypes", {"count" -> "3"}, {"\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n  "}]}], 
+   Typeset`pod6$$ = XMLElement[
+   "pod", {"error" -> "false", "id" -> "GasMark:QuantityData", "numsubpods" -> 
+     "1", "position" -> "600", "scanner" -> "UnitInformation", "title" -> 
+     "Nearest corresponding gas marks"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["microsources", {}, {"\n    ", 
+         XMLElement["microsource", {}, {"GasMark"}], "\n   "}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             GridBox[{{
+                StyleBox[
+                 TagBox[
+                  GridBox[{{
+                    TagBox[
+                    PaneBox[
+                    "\"\"", 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Center}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    TagBox[
+                    PaneBox[
+                    "\"temperature\"", 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Center}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    TagBox[
+                    PaneBox[
+                    "\"usage\"", 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Center}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]]}, {
+                    TagBox[
+                    TagBox["\"stufe 1/2\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {"GasMark", "German1/2"}]], Identity], 
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["212", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "212", "SRString" -> "212"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]F\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                    SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], 
+                    FormBox[
+                    TagBox[
+                    TagBox["\"Germany\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {CountryData, "Germany"}]], Identity], 
+                    TraditionalForm]}}, 
+                   GridBoxAlignment -> {
+                    "Columns" -> {Left, Right, Left}, "Rows" -> {{Baseline}}, 
+                    "ItemsIndexed" -> {{1, 1} -> {Center, Baseline}, {1, 
+                    2} -> {Center, Baseline}, {1, 3} -> {Center, Baseline}}}, 
+                   AutoDelete -> False, 
+                   GridBoxBackground -> {
+                    "Columns" -> {{None}}, "Rows" -> {None, None}}, 
+                   GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                   GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                   GridBoxSpacings -> {
+                    "Columns" -> {{1.5}, 2}, "Rows" -> {{1}}}, FrameStyle -> 
+                   GrayLevel[0.84], BaselinePosition -> Automatic, 
+                   AllowScriptLevelChange -> False], "Grid"], 
+                 LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+                 False]}, {
+                PaneBox[
+                 TagBox[
+                  StyleBox[
+                   
+                   RowBox[{
+                    "\"(\"", "\[NoBreak]", "\"actual measurements may vary\"",
+                     "\[NoBreak]", "\")\""}], {
+                   FontFamily -> "Roboto", FontSize -> 10, 
+                    GrayLevel[0.5], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 BaseStyle -> {LineIndent -> 0}]}}, 
+              GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+              "Column", 
+              GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+             "Column"], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,numberdata,quantitydata"}]}], 
+     XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+       XMLElement["expressiontype", {"name" -> "Grid"}, {}], "\n  "}], 
+     XMLElement["states", {"count" -> "1"}, {
+       XMLElement[
+       "state", {
+        "name" -> "Show metric", "input" -> 
+         "GasMark:QuantityData__Show metric"}, {}]}]}], Typeset`aux1$$ = {
+   True, False, {False}, True}, Typeset`aux2$$ = {True, False, {False}, True},
+    Typeset`aux3$$ = {True, False, {False}, True}, Typeset`aux4$$ = {
+   True, False, {False}, True}, Typeset`aux5$$ = {True, False, {False}, True},
+    Typeset`aux6$$ = {True, False, {False}, True}, Typeset`asyncpods$$ = {}, 
+   Typeset`nonpods$$ = {
+    XMLElement["warnings", {"count" -> "1"}, {
+      XMLElement[
+      "reinterpret", {
+       "text" -> "Using closest Wolfram|Alpha interpretation:", "new" -> 
+        "points boiling water", "score" -> "0.273972602739726", "level" -> 
+        "low"}, {"\n   ", 
+        XMLElement[
+        "alternative", {"score" -> "0.20540540540540542", "level" -> "low"}, {
+         "generate boiling"}], "\n   ", 
+        XMLElement[
+        "alternative", {"score" -> "0.1780821917808219", "level" -> "low"}, {
+         "1 to 5 points"}], "\n   ", 
+        XMLElement[
+        "alternative", {"score" -> "0.15405405405405406", "level" -> "low"}, {
+         "generate 100"}], "\n   ", 
+        XMLElement[
+        "alternative", {"score" -> "0.1506849315068493", "level" -> "low"}, {
+         "point water"}], "\n  "}]}], 
+    XMLElement["sources", {"count" -> "2"}, {
+      XMLElement[
+      "source", {
+       "url" -> 
+        "https://www6b3.wolframalpha.com/sources/\
+GasMarkSourceInformationNotes.html", "text" -> "Gas mark"}, {}], 
+      XMLElement[
+      "source", {
+       "url" -> 
+        "https://www6b3.wolframalpha.com/sources/\
+ChemicalDataSourceInformationNotes.html", "text" -> "Chemical data"}, {}]}]}, 
+   Typeset`initdone$$ = FrontEnd`SuppressEvaluationHash[True], 
+   Typeset`queryinfo$$ = {
+   "success" -> "true", "error" -> 
+    "false", {"http://www.w3.org/XML/1998/namespace", "space"} -> "preserve", 
+    "numpods" -> "6", "datatypes" -> "Chemical,GasMark", "timedout" -> "", 
+    "timedoutpods" -> "", "timing" -> "6.045", "parsetiming" -> "0.225", 
+    "parsetimedout" -> "false", "recalculate" -> "", "id" -> 
+    "MSP122019hegb75485hc826000053939b4554e63a34", "host" -> 
+    "https://www6b3.wolframalpha.com", "server" -> "18", "related" -> "", 
+    "version" -> "2.6", "inputstring" -> "points boiling water"}, 
+   Typeset`sessioninfo$$ = {
+   "TimeZone" -> -5., 
+    "Date" -> {2023, 11, 7, 16, 42, 6.1575781`8.541984901740172}, "Line" -> 
+    34, "SessionID" -> 30930756255015347217}, Typeset`showpods$$ = {1, 2, 3, 
+   4, 5, 6}, Typeset`failedpods$$ = {}, Typeset`chosen$$ = {
+   "Result", "Result", 1, 1, "Output", "Quantity[99.61, \"DegreesCelsius\"]"},
+    Typeset`open$$ = False, Typeset`newq$$ = 
+   "generate a list of 100 points of boiling point of water from 1 to 5 \
+\\\n\natm"}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`FormatAlphaResults[
+      Dynamic[{
+       1, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$, 
+         Typeset`pod5$$, Typeset`pod6$$}, {
+        Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$, Typeset`aux4$$, 
+         Typeset`aux5$$, Typeset`aux6$$}, Typeset`chosen$$, Typeset`open$$, 
+        Typeset`elements$$, Typeset`q$$, Typeset`opts$$, Typeset`nonpods$$, 
+        Typeset`queryinfo$$, Typeset`sessioninfo$$, Typeset`showpods$$, 
+        Typeset`failedpods$$, Typeset`newq$$}]], StandardForm],
+    ImageSizeCache->{391.09765625, {74., 18.}},
+    TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+   DynamicModuleValues:>{},
+   Initialization:>If[
+     And[
+      Not[Typeset`initdone$$ === True], 
+      Not[Typeset`initdone$$ === FrontEnd`SuppressEvaluationHash[True]]], 
+     Null; WolframAlphaClient`Private`doAsyncUpdates[
+       Hold[{
+        Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$, 
+         Typeset`pod5$$, Typeset`pod6$$}], Typeset`asyncpods$$, 
+       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+     Typeset`initdone$$ = FrontEnd`SuppressEvaluationHash[True]],
+   SynchronousInitialization->False],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "WolframAlphaShortInput",
+ CellLabel->"In[34]:=",ExpressionUUID->"41682e89-c77e-4b17-b5f2-702509644345"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "99.61`", "\"\[Degree]C\"", "degrees Celsius", "\"DegreesCelsius\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{3.9083821262944937`*^9},
+ CellLabel->"Out[34]=",ExpressionUUID->"0cdeddc3-91f1-4018-94b7-2d236f8de554"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryResults",
+  DynamicModuleBox[{Typeset`q$$ = "boiling point of water from 1 to 10 atm", 
+   Typeset`opts$$ = {
+   AppearanceElements -> {"Extrusion", "Warnings", "Assumptions", "Pods"}, 
+    Asynchronous -> All, 
+    Method -> {
+     "ExtrusionChosen" -> {
+       "StructureDiagramPod", "Structure diagram", 1, 1, "Input", 
+        "Entity[\"Chemical\", \"Water\"][EntityProperty[\"Chemical\", \
+\"ColorStructureDiagram\"]]"}, 
+      "Formats" -> {"cell", "minput", "moutput", "msound", "dataformats"}}}, 
+   Typeset`elements$$ = {"Extrusion", "Warnings", "Assumptions", "Pods"}, 
+   Typeset`pod1$$ = XMLElement[
+   "pod", {"error" -> "false", "id" -> "Input", "numsubpods" -> "1", 
+     "position" -> "100", "scanner" -> "Identity", "title" -> 
+     "Input interpretation"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             FormBox[
+              TemplateBox[{
+                StyleBox["\"convert \"", {
+                  GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                   LineIndent -> 0}], 
+                FormBox[
+                 TemplateBox[{
+                   TemplateBox[{
+                    TagBox[
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TemplateBox[{"\"1\"", "\"10\"", 
+                    RowBox[{
+                    StyleBox["(", 
+                    GrayLevel[0.6]], "\"1\"", 
+                    StyleBox[
+                    FormBox[
+                    "\"\[MediumSpace]to\[MediumSpace]\"", TraditionalForm], 
+                    GrayLevel[0.6]], "\"10\"", 
+                    StyleBox[")", 
+                    GrayLevel[0.6]]}]}, "Interval", DisplayFunction -> (#3& ),
+                     InterpretationFunction -> (RowBox[{"Interval", "[", 
+                    RowBox[{"{", #, ",", #2, "}"}], "]"}]& )], 
+                    "\[InvisibleSpace]", " ", 
+                    StyleBox[
+                    "\"atoms\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                    SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], HoldForm], "\" \""}, 
+                    "RowDefault"], 
+                   StyleBox["\"of\"", {
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], 
+                   TemplateBox[{"\" \"", 
+                    FormBox[
+                    TagBox[
+                    TagBox["\"water\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {ChemicalData, "Water"}, 
+                    "SRString" :> $CellContext`GeneralData[
+                    ChemicalData, "Water", "SpokenName"]]], Identity], 
+                    TraditionalForm]}, "RowDefault"]}, "RowDefault"], 
+                 TraditionalForm], 
+                StyleBox["\" to \"", {
+                  GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                   LineIndent -> 0}], "\"boiling temperature\""}, 
+               "RowDefault"], TraditionalForm], 
+             PolynomialForm[#, TraditionalOrder -> False]& ], 
+            TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement["dataformats", {}, {"plaintext"}]}], 
+     XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+       XMLElement["expressiontype", {"name" -> "Grid"}, {}], "\n  "}]}], 
+   Typeset`pod2$$ = XMLElement[
+   "pod", {"error" -> "false", "id" -> "StructureDiagramPod", "numsubpods" -> 
+     "1", "position" -> "200", "scanner" -> "ChemicalQuantity", "title" -> 
+     "Structure diagram"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["microsources", {}, {"\n   ", 
+         XMLElement["microsource", {}, {"ChemicalData"}], "\n   ", 
+         XMLElement["microsource", {}, {"ElementData"}], "\n  "}], 
+       XMLElement["datasources", {}, {"\n   ", 
+         XMLElement["datasource", {}, {"PubChem"}], "\n   ", 
+         XMLElement["datasource", {}, {"WebElements"}], "\n  "}], 
+       XMLElement[
+       "minput", {}, {
+        "Entity[\"Chemical\", \"Water\"][EntityProperty[\"Chemical\", \
+\"ColorStructureDiagram\"]]"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            PaneBox[
+             GraphicsBox[{
+               CapForm["Round"], Null, {{
+                 RGBColor[0.8, 0.202, 0.192], 
+                 InsetBox[
+                  FormBox[
+                   StyleBox[
+                   "\"O\"", FontSize -> Scaled[0.29572583495362026`], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, FontFamily -> "Source Sans Pro", 
+                    StripOnInput -> False], TraditionalForm], {
+                  253.69000000000003`, -15.5}]}, {
+                 RGBColor[0.433, 0.467, 0.467], 
+                 InsetBox[
+                  FormBox[
+                   StyleBox[
+                   "\"H\"", FontSize -> Scaled[0.29572583495362026`], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, FontFamily -> "Source Sans Pro", 
+                    StripOnInput -> False], TraditionalForm], {307.39, 
+                  15.5}]}, {
+                 RGBColor[0.433, 0.467, 0.467], 
+                 InsetBox[
+                  FormBox[
+                   StyleBox[
+                   "\"H\"", FontSize -> Scaled[0.29572583495362026`], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, FontFamily -> "Source Sans Pro", 
+                    StripOnInput -> False], TraditionalForm], {200., 
+                  15.5}]}}, {{{
+                  AbsoluteThickness[0.55], 
+                  RGBColor[0.8, 0.202, 0.192], 
+                  
+                  LineBox[{{275.5492785064209, -2.881049651786853}, {280.54, 
+                   0.}}], 
+                  RGBColor[0.433, 0.467, 0.467], 
+                  
+                  LineBox[{{280.54, 0.}, {285.68864061042007`, 
+                   2.9722133877657733`}}]}}, {{
+                  AbsoluteThickness[0.55], 
+                  RGBColor[0.8, 0.202, 0.192], 
+                  
+                  LineBox[{{231.83173918143535`, -2.8792869179455245`}, {
+                   226.84500000000003`, 0.}}], 
+                  RGBColor[0.433, 0.467, 0.467], 
+                  
+                  LineBox[{{226.84500000000003`, 0.}, {221.7003490538588, 
+                   2.9704633885337675`}}]}}}, Null}, {GridLines -> Dynamic[
+                 Map[{{#, 
+                    GrayLevel[0.7]}}& , 
+                  MousePosition[{"Graphics", Graphics}, None]]], 
+               Method -> {"GridLinesInFront" -> True}, ImageSize -> 79, 
+               PlotRangeClipping -> False, ImagePadding -> 2, ImageSize -> 
+               72., PlotRange -> {{176.856359383331, 
+                325.9049124933352}, {-43.55289771717453, 
+                36.539673287880895`}}}], ImageSizeAction -> "ShrinkToFit", 
+             ImageSize -> {440.}], TraditionalForm]], "Output", {}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {"minput,computabledata,formatteddata"}]}], 
+     XMLElement["expressiontypes", {"count" -> "1"}, {"\n  ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n "}], 
+     XMLElement["states", {"count" -> "4"}, {
+       XMLElement[
+       "statelist", {
+        "count" -> "2", "value" -> "Skeletal structure", "delimiters" -> ""}, {
+         XMLElement[
+         "state", {
+          "name" -> "Skeletal structure", "input" -> 
+           "StructureDiagramPod__Skeletal structure"}, {}], 
+         XMLElement[
+         "state", {
+          "name" -> "Lewis structure", "input" -> 
+           "StructureDiagramPod__Lewis structure"}, {}]}], 
+       XMLElement[
+       "state", {
+        "name" -> "Show bond information", "input" -> 
+         "StructureDiagramPod__Show bond information"}, {}], 
+       XMLElement[
+       "state", {
+        "name" -> "Show graph properties", "input" -> 
+         "StructureDiagramPod__Show graph properties"}, {}], 
+       XMLElement[
+       "state", {
+        "name" -> "Step-by-step", "input" -> 
+         "StructureDiagramPod__Step-by-step", "stepbystep" -> "true", 
+         "buttonstyle" -> "StepByStepSolution"}, {}]}]}], Typeset`pod3$$ = 
+   XMLElement[
+   "pod", {"error" -> "false", "id" -> "SubstanceNames", "numsubpods" -> "1", 
+     "position" -> "300", "scanner" -> "ChemicalQuantity", "title" -> 
+     "Chemical names and formulas"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["microsources", {}, {"\n    ", 
+         XMLElement["microsource", {}, {"ChemicalData"}], "\n   "}], 
+       XMLElement["datasources", {}, {"\n    ", 
+         XMLElement["datasource", {}, {"PubChem"}], "\n   "}], 
+       XMLElement[
+       "minput", {}, {
+        "Dataset[EntityValue[Entity[\"Chemical\", \"Water\"], \
+{EntityProperty[\"Chemical\", \"Formula\"], EntityProperty[\"Chemical\", \
+\"HillFormula\"], EntityProperty[\"Chemical\", \"Name\"], \
+EntityProperty[\"Chemical\", \"IUPACName\"]}, \"PropertyAssociation\"]]"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              GridBox[{{
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"formula\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  TemplateBox[{
+                    SubscriptBox["\"H\"", "2"], "\"O\""}, "RowDefault"], 
+                  ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> 
+                  False]}, {
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"Hill formula\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  TemplateBox[{
+                    SubscriptBox["\"H\"", "2"], "\"O\""}, "RowDefault"], 
+                  ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> 
+                  False]}, {
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"name\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                 "\"water\"", {
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                   0}]}, {
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"IUPAC name\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                 "\"water\"", {
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                   0}]}}, GridBoxAlignment -> {
+                "Columns" -> {Left, Left}, "Rows" -> {{Baseline}}}, 
+               AutoDelete -> False, 
+               GridBoxBackground -> {"Columns" -> {None, None}}, 
+               GridBoxFrame -> {"Columns" -> {{True}}, "Rows" -> {{True}}}, 
+               GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {"Columns" -> {{1.5}, 2}, "Rows" -> {{1}}}, 
+               FrameStyle -> GrayLevel[0.84], BaselinePosition -> Automatic, 
+               AllowScriptLevelChange -> False], "Grid"], 
+             LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+             False], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,minput,computabledata,formatteddata"}]}], 
+     XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+       XMLElement["expressiontype", {"name" -> "Grid"}, {}], "\n  "}]}], 
+   Typeset`pod4$$ = XMLElement[
+   "pod", {"error" -> "false", "id" -> "SubstanceProperties", "numsubpods" -> 
+     "1", "position" -> "400", "scanner" -> "ChemicalQuantity", "title" -> 
+     "Substance properties"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["microsources", {}, {"\n    ", 
+         XMLElement["microsource", {}, {"ChemicalData"}], "\n   "}], 
+       XMLElement["datasources", {}, {"\n    ", 
+         XMLElement["datasource", {}, {"PubChem"}], "\n    ", 
+         XMLElement["datasource", {}, {"CRCHandbook"}], "\n   "}], 
+       XMLElement[
+       "minput", {}, {
+        "Dataset[EntityValue[Entity[\"Chemical\", \"Water\"], \
+{EntityProperty[\"Chemical\", \"MolarMass\"], EntityProperty[\"Chemical\", \
+\"Phase\"], EntityProperty[\"Chemical\", \"MeltingPoint\"], \
+EntityProperty[\"Chemical\", \"BoilingPoint\"], EntityProperty[\"Chemical\", \
+\"MassDensity\"], EntityProperty[\"Chemical\", \"SurfaceTension\"], \
+EntityProperty[\"Chemical\", \"Viscosity\"], EntityProperty[\"Chemical\", \
+\"OdorType\"]}, \"PropertyAssociation\"]]"}], 
+       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              GridBox[{{
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"molar mass\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["18.015", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "18.015", "SRString" -> "18.015"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"g\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", "\"mol\""}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                   SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False]}, {
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"phase\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  StyleBox[
+                   TemplateBox[{
+                    FormBox[
+                    TagBox[
+                    TagBox["\"liquid\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {"MatterPhase", "Liquid"}]], Identity], 
+                    TraditionalForm], "\"  \"", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"(\"", "\[NoBreak]", "\"at STP\"", "\[NoBreak]", 
+                    "\")\""}], {FontFamily -> "Roboto", FontSize -> 10, 
+                    GrayLevel[0.5], LineIndent -> 0}]}, "RowDefault"], 
+                   LineIndent -> 0], 
+                  LinebreakAdjustments -> {1, 100, 0, 0, 100}]}, {
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"melting point\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    RowBox[{
+                    TagBox["0", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "0", "SRString" -> "0"]], "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], #& , SyntaxForm -> Dot], "Unit", SyntaxForm -> 
+                   Dot], LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                  LineIndent -> 0, ZeroWidthTimes -> False]}, {
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"boiling point\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  StyleBox[
+                   TemplateBox[{
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["99.61", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "99.61", "SRString" -> "99.61"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LineIndent -> 0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LineIndent -> 0}]}], Identity], #& , SyntaxForm -> Dot], 
+                    "Unit", SyntaxForm -> Dot], LineIndent -> 0, 
+                    ZeroWidthTimes -> False], "\"  \"", 
+                    StyleBox[
+                    RowBox[{"\"(\"", "\[NoBreak]", 
+                    TemplateBox[{"\"measured at \"", 
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["100", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "100", "SRString" -> "100"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LineIndent -> 0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"kPa\"", {FontFamily -> "Roboto", FontSize -> 
+                    0.9 Inherited, LineIndent -> 0}]}], Identity], #& , 
+                    SyntaxForm -> Dot], "Unit", SyntaxForm -> Dot], 
+                    LineIndent -> 0, ZeroWidthTimes -> False]}, "RowDefault"],
+                     "\[NoBreak]", "\")\""}], {
+                    FontFamily -> "Roboto", FontSize -> 10, 
+                    GrayLevel[0.5], LineIndent -> 0}]}, "RowDefault"], 
+                   LineIndent -> 0], 
+                  LinebreakAdjustments -> {1, 100, 0, 0, 100}]}, {
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"mass density\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["0.997048", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "0.997048", "SRString" -> "0.997048"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"g\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", 
+                    SuperscriptBox["\"cm\"", "3"]}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                   SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False]}, {
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"surface tension\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["0.0728", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "0.0728", "SRString" -> "0.0728"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"N\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", "\"m\""}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                   SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False]}, {
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"dynamic viscosity\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  StyleBox[
+                   TemplateBox[{
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{"8.9", 
+                    StyleBox["\[Times]", 
+                    GrayLevel[0.5]], 
+                    SuperscriptBox["10", "-4"]}], 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> RowBox[{"8.9", "\[Times]", 
+                    SuperscriptBox["10", "-4"]}], "SRString" -> 
+                    "8.9 times 10 to the negative 4"], SyntaxForm -> 
+                    CenterDot], "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LineIndent -> 0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{"\"Pa\"", "\[InvisibleSpace]", "\"\[ThinSpace]\"",
+                     "\[InvisibleSpace]", "\"s\""}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LineIndent -> 0}]}], Identity], #& , SyntaxForm -> Dot], 
+                    "Unit", SyntaxForm -> Dot], LineIndent -> 0, 
+                    ZeroWidthTimes -> False], "\"  \"", 
+                    StyleBox[
+                    RowBox[{"\"(\"", "\[NoBreak]", 
+                    TemplateBox[{"\"at \"", 
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["25", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "25", "SRString" -> "25"]], "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LineIndent -> 0}], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", {
+                    FontFamily -> "Roboto", FontSize -> 0.9 Inherited, 
+                    LineIndent -> 0}]}], Identity], #& , SyntaxForm -> Dot], 
+                    "Unit", SyntaxForm -> Dot], LineIndent -> 0, 
+                    ZeroWidthTimes -> False]}, "RowDefault"], "\[NoBreak]", 
+                    "\")\""}], {FontFamily -> "Roboto", FontSize -> 10, 
+                    GrayLevel[0.5], LineIndent -> 0}]}, "RowDefault"], 
+                   LineIndent -> 0], 
+                  LinebreakAdjustments -> {1, 100, 0, 0, 100}]}, {
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"odor\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                 "\"odorless\"", {
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                   0}]}}, GridBoxAlignment -> {
+                "Columns" -> {Left, Left}, "Rows" -> {{Baseline}}}, 
+               AutoDelete -> False, 
+               GridBoxBackground -> {"Columns" -> {None, None}}, 
+               GridBoxFrame -> {"Columns" -> {{True}}, "Rows" -> {{True}}}, 
+               GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {"Columns" -> {{1.5}, 2}, "Rows" -> {{1}}}, 
+               FrameStyle -> GrayLevel[0.84], BaselinePosition -> Automatic, 
+               AllowScriptLevelChange -> False], "Grid"], 
+             LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+             False], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,minput,computabledata,formatteddata,numberdata,\
+quantitydata"}]}], 
+     XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+       XMLElement["expressiontype", {"name" -> "Grid"}, {}], "\n  "}], 
+     XMLElement["states", {"count" -> "1"}, {
+       XMLElement[
+       "state", {
+        "name" -> "Step-by-step", "input" -> 
+         "SubstanceProperties__Step-by-step", "stepbystep" -> "true", 
+         "buttonstyle" -> "StepByStepSolution"}, {}]}], 
+     XMLElement["infos", {"count" -> "1"}, {
+       XMLElement["info", {}, {
+         XMLElement["units", {"count" -> "5"}, {
+           XMLElement[
+           "unit", {
+            "short" -> "g/cm^3", "long" -> "grams per cubic centimeter"}, {}], 
+           XMLElement[
+           "unit", {"short" -> "g/mol", "long" -> "grams per mole"}, {}], 
+           XMLElement[
+           "unit", {"short" -> "kPa", "long" -> "kilopascals"}, {}], 
+           XMLElement[
+           "unit", {"short" -> "N/m", "long" -> "newtons per meter"}, {}], 
+           XMLElement[
+           "unit", {
+            "short" -> "Pa s", "long" -> "pascal seconds"}, {}]}]}]}]}], 
+   Typeset`aux1$$ = {True, False, {False}, True}, Typeset`aux2$$ = {
+   True, False, {False}, True}, Typeset`aux3$$ = {True, False, {False}, True},
+    Typeset`aux4$$ = {True, False, {False}, True}, Typeset`asyncpods$$ = {}, 
+   Typeset`nonpods$$ = {
+    XMLElement["sources", {"count" -> "2"}, {
+      XMLElement[
+      "source", {
+       "url" -> 
+        "https://www6b3.wolframalpha.com/sources/\
+ChemicalDataSourceInformationNotes.html", "text" -> "Chemical data"}, {}], 
+      XMLElement[
+      "source", {
+       "url" -> 
+        "https://www6b3.wolframalpha.com/sources/\
+ElementDataSourceInformationNotes.html", "text" -> "Element data"}, {}]}]}, 
+   Typeset`initdone$$ = FrontEnd`SuppressEvaluationHash[False], 
+   Typeset`queryinfo$$ = {
+   "success" -> "true", "error" -> 
+    "false", {"http://www.w3.org/XML/1998/namespace", "space"} -> "preserve", 
+    "numpods" -> "4", "datatypes" -> "Chemical,Element", "timedout" -> "", 
+    "timedoutpods" -> "", "timing" -> "1.827", "parsetiming" -> "0.", 
+    "parsetimedout" -> "false", "recalculate" -> "", "id" -> 
+    "MSP1226714babd6ch5a239h500001f0a00f8c5c3ieh3", "host" -> 
+    "https://www6b3.wolframalpha.com", "server" -> "11", "related" -> 
+    "https://www6b3.wolframalpha.com/api/v1/relatedQueries.jsp?id=\
+MSPa1226814babd6ch5a239h500002f0d565190ehb56d5481992349747128482", "version" -> 
+    "2.6", "inputstring" -> "boiling point of water from 1 to 10 atm"}, 
+   Typeset`sessioninfo$$ = {
+   "TimeZone" -> -5., 
+    "Date" -> {2023, 11, 7, 16, 42, 30.9485072`9.243214613018534}, "Line" -> 
+    35, "SessionID" -> 30930756255015347217}, Typeset`showpods$$ = {1, 2, 3, 
+   4}, Typeset`failedpods$$ = {}, Typeset`chosen$$ = {
+   "StructureDiagramPod", "Structure diagram", 1, 1, "Input", 
+    "Entity[\"Chemical\", \"Water\"][EntityProperty[\"Chemical\", \
+\"ColorStructureDiagram\"]]"}, Typeset`open$$ = False, Typeset`newq$$ = 
+   "boiling point of water from 1 to 10 atm"}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`FormatAlphaResults[
+      Dynamic[{
+       1, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$}, {
+        Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$, Typeset`aux4$$}, 
+        Typeset`chosen$$, Typeset`open$$, Typeset`elements$$, Typeset`q$$, 
+        Typeset`opts$$, Typeset`nonpods$$, Typeset`queryinfo$$, 
+        Typeset`sessioninfo$$, Typeset`showpods$$, Typeset`failedpods$$, 
+        Typeset`newq$$}]], StandardForm],
+    ImageSizeCache->{246.09765625, {53., 18.}},
+    TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+   DynamicModuleValues:>{},
+   Initialization:>If[
+     And[
+      Not[Typeset`initdone$$ === True], 
+      Not[Typeset`initdone$$ === FrontEnd`SuppressEvaluationHash[True]]], 
+     Null; WolframAlphaClient`Private`doAsyncUpdates[
+       Hold[{Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$}],
+        Typeset`asyncpods$$, 
+       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+     Typeset`initdone$$ = FrontEnd`SuppressEvaluationHash[True]],
+   SynchronousInitialization->False],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "WolframAlphaShortInput",
+ CellLabel->"In[35]:=",ExpressionUUID->"377f66d2-a6b9-4e4c-8217-2746ac479e21"],
+
+Cell[BoxData[
+ TemplateBox[{"0.00001`", 
+   RowBox[{"\"m\"", "\[ThinSpace]", "\"\[CapitalOmega]\""}], "meter ohms", 
+   RowBox[{"\"Meters\"", " ", "\"Ohms\""}]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{3.9083819475793443`*^9},
+ CellLabel->"Out[30]=",ExpressionUUID->"9f281de7-44fc-47fd-99b4-2616c1a315ce"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {CapForm["Round"], {
+    {RGBColor[0.8, 0.202, 0.192], InsetBox[
+      StyleBox["\<\"O\"\>",
+       StripOnInput->False,
+       ScriptSizeMultipliers->0.8,
+       ScriptMinSize->8,
+       FontFamily->"Source Sans Pro",
+       FontSize->Scaled[0.29572583495362026`],
+       FontWeight->Plain], {253.69000000000003, -15.5}]}, 
+    {RGBColor[0.433, 0.467, 0.467], InsetBox[
+      StyleBox["\<\"H\"\>",
+       StripOnInput->False,
+       ScriptSizeMultipliers->0.8,
+       ScriptMinSize->8,
+       FontFamily->"Source Sans Pro",
+       FontSize->Scaled[0.29572583495362026`],
+       FontWeight->Plain], {307.39, 15.5}]}, 
+    {RGBColor[0.433, 0.467, 0.467], InsetBox[
+      StyleBox["\<\"H\"\>",
+       StripOnInput->False,
+       ScriptSizeMultipliers->0.8,
+       ScriptMinSize->8,
+       FontFamily->"Source Sans Pro",
+       FontSize->Scaled[0.29572583495362026`],
+       FontWeight->Plain], {200., 15.5}]}}, {
+    {RGBColor[0.8, 0.202, 0.192], AbsoluteThickness[0.55], 
+     LineBox[{{275.5492785064209, -2.881049651786853}, {280.54, 0.}}], 
+     {RGBColor[0.433, 0.467, 0.467], 
+      LineBox[{{280.54, 0.}, {285.68864061042007`, 2.9722133877657733`}}]}}, 
+    {RGBColor[0.8, 0.202, 0.192], AbsoluteThickness[0.55], 
+     LineBox[{{231.83173918143535`, -2.8792869179455245`}, {
+      226.84500000000003`, 0.}}], 
+     {RGBColor[0.433, 0.467, 0.467], 
+      LineBox[{{226.84500000000003`, 0.}, {221.7003490538588, 
+       2.9704633885337675`}}]}}}},
+  ImagePadding->2,
+  ImageSize->72.00000000000001,
+  PlotRange->{{176.856359383331, 325.9049124933352}, {-43.55289771717453, 
+   36.539673287880895`}},
+  PlotRangeClipping->False]], "Output",
+ CellChangeTimes->{3.9083821823673253`*^9},
+ CellLabel->"Out[35]=",ExpressionUUID->"ec910a50-dbd5-448d-85b8-a2979f9a6257"]
+}, Open  ]],
+
+Cell[BoxData[""], "WolframAlphaShortInput",
+ CellChangeTimes->{{3.9083820205376253`*^9, 
+  3.908382020665756*^9}},ExpressionUUID->"29d26765-0c32-4905-8b3d-\
+2283cba08ac7"],
+
+Cell["tell me the boiling points of water at 1, 2, 3, 4, 5 atm", \
+"WolframAlphaShort",
+ CellChangeTimes->{{3.9083821938666053`*^9, 
+  3.908382241549614*^9}},ExpressionUUID->"35f6ce62-ad7f-4f24-b215-\
+3d934077ae8d"]
+},
+WindowSize->{1070.25, 608.625},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+TaggingRules-><|"TryRealOnly" -> False|>,
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"5f284a56-aa71-464e-9cdb-f095f1daf663"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 468, 11, 28, "Input",ExpressionUUID->"a271361b-5a99-4350-9039-f8ae5b0d89a0"],
+Cell[CellGroupData[{
+Cell[1051, 35, 1867, 38, 117, "Input",ExpressionUUID->"9231dadd-4b03-43a1-8a0b-92ec60e95098"],
+Cell[2921, 75, 44236, 768, 230, "Output",ExpressionUUID->"76180de1-48c9-4c13-9534-1a11ac662ba8"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47194, 848, 792, 19, 28, "Input",ExpressionUUID->"b260ba88-37e8-4d4f-bad6-bc5f8d2d170c"],
+Cell[47989, 869, 1742, 35, 306, "Output",ExpressionUUID->"348f4828-d749-4efb-bf14-c77bc1dd61a8"]
+}, Open  ]],
+Cell[49746, 907, 154, 3, 28, "Input",ExpressionUUID->"68694fb1-2af8-4de9-92a4-c0a68d8a93b2"],
+Cell[CellGroupData[{
+Cell[49925, 914, 64509, 1312, 109, "WolframAlphaShortInput",ExpressionUUID->"41682e89-c77e-4b17-b5f2-702509644345"],
+Cell[114437, 2228, 249, 5, 35, "Output",ExpressionUUID->"0cdeddc3-91f1-4018-94b7-2d236f8de554"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[114723, 2238, 37926, 765, 88, "WolframAlphaShortInput",ExpressionUUID->"377f66d2-a6b9-4e4c-8217-2746ac479e21"],
+Cell[152652, 3005, 310, 6, 35, "Output",ExpressionUUID->"9f281de7-44fc-47fd-99b4-2616c1a315ce"],
+Cell[152965, 3013, 1795, 43, 57, "Output",ExpressionUUID->"ec910a50-dbd5-448d-85b8-a2979f9a6257"]
+}, Open  ]],
+Cell[154775, 3059, 171, 3, 29, "WolframAlphaShortInput",ExpressionUUID->"29d26765-0c32-4905-8b3d-2283cba08ac7"],
+Cell[154949, 3064, 215, 4, 31, "WolframAlphaShort",ExpressionUUID->"35f6ce62-ad7f-4f24-b215-3d934077ae8d"]
+}
+]
+*)
+
